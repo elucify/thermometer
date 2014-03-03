@@ -2,6 +2,7 @@ Thermometer
 ===========
 
 C++ class encapsulation of a single OneWire channel of DallasTemperature sensors.
+Uses Dallas Semiconductor ds18b20 temperature sensors.
 
 Requires:
 

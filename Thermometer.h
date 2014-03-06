@@ -26,7 +26,7 @@ class Thermometer {
 
  protected:
     DeviceAddress _address;
-
+    static boolean _sensors_initialized;
     static OneWire _oneWire;
     static DallasTemperature _sensors;
 };

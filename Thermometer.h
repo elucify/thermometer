@@ -20,6 +20,7 @@ class Thermometer {
 
     float getTemperature();
 
+    static OneWire* getOneWire();
     // Onewire address
     //    DeviceAddress& getAddress();
     //    void setAddress(DeviceAddress& address);

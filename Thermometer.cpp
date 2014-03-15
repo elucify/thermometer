@@ -39,3 +39,8 @@ float Thermometer::getTemperature()
     }
     return DallasTemperature::toFahrenheit(tempC);
 }
+
+OneWire *Thermometer::getOneWire()
+{
+    return &_oneWire;
+}
